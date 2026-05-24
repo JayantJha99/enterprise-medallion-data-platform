@@ -115,22 +115,6 @@ Used ROW_NUMBER() partition logic to correctly identify latest records during up
 
 RDS/MySQL → AWS DMS → S3 Bronze → AWS Glue → S3 Silver → Redshift Gold → QuickSight
 
----
-
-## Folder Structure
-
-```bash
-├── dags/
-├── glue_jobs/
-├── pyspark/
-├── sql/
-├── step_functions/
-├── architecture/
-├── screenshots/
-└── README.md
-```
-
----
 
 ## Future Improvements
 
